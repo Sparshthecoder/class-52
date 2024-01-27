@@ -1,0 +1,45 @@
+h1 {
+    color: brown;
+    padding-left: 30px
+}
+
+* {
+    border: solid;
+}
+.header
+{
+   background-color: rgb(7, 245, 35);
+    display: flex;
+    justify-content: inline-flexbox
+}
+.grid{
+    display: flex;
+    justify-content:space-between;
+}
+.footer{
+    display:flex;
+    justify-content: flow-root
+}
+body{
+    background-color: #000000;
+}
+a:link{
+    color: rgb(153, 51, 104)
+}
+a:visited{
+    color:rgb(10, 19, 111)
+}
+.menu{
+    margin-right: 30px;
+}
+.menu a{
+    margin-left: 20px
+}
+.item{
+    position: relative
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
